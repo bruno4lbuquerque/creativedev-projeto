@@ -28,6 +28,7 @@ a {
     color: #eee;
     border-radius: 5px;
     transition: background 500ms ease;
+    z-index: 999;
 }
 
 .btn:hover {
@@ -125,7 +126,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #eee;
-    background: url(/Assets/tematicoTelao.jpg) no-repeat center center/cover;
+    background: url(/Assets/imageprincipal.jpg) no-repeat center center/cover;
 
     /* overlay */
     background-color: rgba(0, 0, 0, 0.4);
@@ -235,8 +236,14 @@ a {
 .gallery-image {
     display: inline-block;
     width: 310px;
-    height: 250px;
+    height: 280px;
     border-radius: 6px;
+}
+.gallery-image:hover {
+    cursor: pointer;
+    width: 307px;
+    height: 277px;
+    background: #2d0c86;
 }
 
 /* footer */
