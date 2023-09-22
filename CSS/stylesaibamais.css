@@ -11,24 +11,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 a {
     position: relative;
     text-decoration: none;
     color: #eee;
-}
-
-.btn{
-    display: inline-block;
-    padding: 15px 60px;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    background: #5629d6;
-    color: #eee;
-    border-radius: 5px;
-    transition: background 500ms ease;
-    z-index: 999;
 }
 
 .btn:hover {
@@ -121,80 +107,27 @@ a {
     
 }
 
-#showcase{
+
+
+#displayproduct{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eee;
-    background: url(/Assets/imageprincipal.jpg) no-repeat center center/cover;
-
-    /* overlay */
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: color;
+    color: #0c0c0c;   
 }
 
-#showcase-container {
+#displayproduct-container {
     text-align: center;
 }
 
-#showcase-container h2 {
+#displayproduct-container h2 {
     font-size: 2.5rem;
 }
 
-#showcase-container p {
+#displayproduct-container p {
     font-size: 1.2rem;
     padding: 7px 0;
-}
-
-/*--Clients--*/
-#clients{
-    width: 100%;
-    background: #eee;
-    color: #111;
-    padding: 50px;
-}
-
-#clients-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    padding: 15px;
-}
-
-.client {
-    display: inline-block;
-    width: 15%;
-}
-
-/*About*/
-#features {
-    width: 100%;
-    background: #6532ef;
-    color: #eee;
-    padding: 50px;
-    background: url(/Assets/space.jpg) no-repeat center center/cover;
-}
-
-#features-container {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
-}
-
-.feature  {
-    display: flex;
-    flex-direction: column;
-    background: #3e16aa;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.feature-title {
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 /* Product*/
@@ -209,14 +142,22 @@ a {
     align-items: center;
 }
 
-#items {
-    width: 600px;
+#creative {
+    display: flex;
+    width: 50%;
+    height: 260px;
+    border-radius: 10px;
+}
+
+#items {      
+    display: flex;
+    padding: 20px;
 }
 
 #items.item {
+    line-height: 150%;
     display: flex;
     padding: 10px;
-    margin: 15px 0;
     font-size: 1.2rem;
 }
 
@@ -237,13 +178,13 @@ a {
 .gallery-image {
     display: inline-block;
     width: 310px;
-    height: 290px;
+    height: 280px;
     border-radius: 6px;
 }
 .gallery-image:hover {
     cursor: pointer;
     width: 307px;
-    height: 287px;
+    height: 277px;
     background: #2d0c86;
 }
 
@@ -253,8 +194,5 @@ a {
     color: #eee;
     padding: 20px;
     text-align: center;
-}
 
-.headline, .client, .gallery-image, .iphone-x, .item, .feature, .btn, .principal {
-    visibility: hidden;
 }

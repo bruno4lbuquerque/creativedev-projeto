@@ -36,7 +36,7 @@
 }
 
 .client {
-    width: 72%;
+    width: 50%;
 }
 
 /*features */
@@ -70,5 +70,5 @@
 
 .gallery-image {
     width: 320px;
-    height: 260px;
+    height: 290px;
 }
