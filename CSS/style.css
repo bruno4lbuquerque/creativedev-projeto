@@ -54,6 +54,7 @@ a {
     height: 80px;
     position: fixed;
     display: flex;
+    z-index: 999999;
 }
 
 .nav > li > a {
@@ -114,10 +115,10 @@ a {
 }
 
 .logo{
-    margin: 0;
+    margin: 8px;
     width: 64px;
     height: 64px;
-    margin-top: 0;
+    margin-top: 8px;
     
 }
 
