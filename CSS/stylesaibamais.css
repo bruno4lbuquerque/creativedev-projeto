@@ -112,7 +112,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0c0c0c;   
+    color: #ffffff;
+    background: url(/Assets/image-5.jpeg) no-repeat center center/cover; 
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
 }
 
 #displayproduct-container {
@@ -146,6 +150,87 @@ a {
     padding: 20px;
 }
 
+#conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #250169;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #ffffff;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+
+}
+
+section h2{
+    color: #250169;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: #250169;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.8s;
+}
+
+form input:focus{
+    border-radius: 18px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.8s;
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #b71ffd;
+    border-radius: 15px;
+    transition: all 1s;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: #ffffff;
+}
+
+form button:hover{
+    background: #7816a5;
+    color: #ffffff;
+}
+
 /* footer */
 #footer {
     background: #222;
@@ -158,3 +243,4 @@ a {
 .text, .text1, .imagem,.titulo {
     visibility: hidden;
 }
+

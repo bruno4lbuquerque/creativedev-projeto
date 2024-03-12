@@ -30,12 +30,24 @@
             </div>
         </header>  
 
-        <section id="conteudo" class="conteudo">
-            <!--<div class="headline">Sobre projeto Social Mídia</div>-->         
-                
-                
-            
+        <div id="conteudo">
+        <section >
+           <div id="conteudo-container">
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+               <label>Nome</label>
+               <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+               <label>Email</label>
+               <input type="email" name="email" placeholder="Digite seu email" autocomplete="off">
+               <label>Solicitação</label>
+               <textarea name="message" cols="30" rows="10" placeholder="Digite sua solicitação"></textarea>
+               <button type="submit">Enviar</button> 
+
+               <input type="hidden" name="accessKey" value="c51bd5f4-5d9d-4d86-ab50-e8091f5d7cb5">
+               <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </div>    
         </section>
+        </div>
 
         <footer id="footer">
             <p>Copyright 2023 - Todos direitos reservados. Feito por CreativeDevADM</p>
