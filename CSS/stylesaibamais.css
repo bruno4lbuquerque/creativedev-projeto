@@ -169,7 +169,6 @@ section{
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
-
 }
 
 section h2{
@@ -245,3 +244,39 @@ form button:hover{
     visibility: hidden;
 }
 
+/* Página do Obrigado */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #250169;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.btn{
+    padding: 15px 50px;
+    background: #b71ffd;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.8s;
+}
+
+.btn:hover{
+    background: #7816a5;
+    color: #b6b6b6;
+}
